@@ -1,0 +1,280 @@
+/*  -------------------------------------------       Allgemein    ------------------------------------------------ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*  ------------------------------------------------------     Main   ------------------------------------------------ */
+
+main {
+  background-color: #fff;
+
+}
+
+main .content {
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+
+}
+
+/*---------------------------------------------------       Header    -------------------------------------------- */
+
+header {
+  background-color: #d4a8d2;
+}
+
+.logo img {
+  width: 40%;
+  height: 100%;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+/* -----------------------------------------------------    Nav Link      ------------------------------ */
+header .nav-link {
+  padding: 20px 20px;
+  font-weight: 400;
+  color: #246c36;
+  font-size: 17px;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+header .nav-link:hover {
+  color: #fff;
+  text-shadow: none;
+}
+
+/*  -----------------------------------------------------      Title      -------------------------------------- */
+main .pg-header {
+  padding: 20px 0;
+  background: #f8e1e1;
+}
+
+main .pg-header h1 {
+  color: #3ba92d;
+  font-weight: 500;
+  text-shadow: 4px 3px 0px rgb(255, 255, 255);
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*  -----------------------------------------------------      Home Bilder      -------------------------------------- */
+.home-img {
+  margin-left: 15%;
+  padding: 5px 5px;
+  margin-bottom: 20px;
+}
+
+/*  ---------------------------------------------------------       Home Title         -------------------------------------- */
+.hello {
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 50px;
+  color: #36974e;
+  text-shadow: 2px 2px 2px #e697ac;
+}
+
+/*  -------------------------------------------------------------      Über uns       -------------------------------------- */
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.about h2::after {
+  position: absolute;
+  content: '';
+  width: 50px;
+  bottom: -6px;
+  height: 2px;
+  background-color: #666;
+  left: 0;
+}
+
+/*  -------------------------------------------------------       Leistungen        -------------------------------------- */
+
+.products-row .card .card-body {
+  background: #f5f5f5;
+}
+
+.products-row .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+.products-row .card-text {
+  color: #666;
+  font-size: 16px;
+}
+
+.card {
+  box-shadow: 0px 10px 10px #eee;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card .card-title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card .img-wrap {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: rgba(216, 20, 122, 0.125);
+}
+
+.card .img-wrap img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.card .price {
+  color: #42b333;
+}
+
+/*  --------------------------------------------------------       Blog        -------------------------------------- */
+
+.posts .col-sm-6 {
+  margin-bottom: 20px;
+}
+
+.posts .card-title {
+  text-transform: capitalize;
+}
+
+.posts .card-text {
+  text-align: center;
+}
+
+
+/*----------------------------------------------------       footer      -------------------------------------------- */
+
+footer {
+  height: 5%;
+  padding: 30px 0;
+  background-color: #d4a8d2;
+}
+
+/* .footer{
+  width: 100%;
+  height: 50px;
+} */
+footer .nav-link {
+  color: rgba(134, 0, 175, 0.75);
+  padding-left: 0;
+  padding-right: 0;
+  margin: 10px 10px;
+}
+
+footer .nav-link:hover {
+  color: #fff;
+}
+
+footer .nav-link.active {
+  color: #fff;
+  border-bottom: 1px solid #666;
+}
+
+/*----------------------------------------------------------- Error -------------------------------------------- */
+
+.error-message {
+  text-align: center;
+  padding: 80px;
+}
+
+.error-message p {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------form-------------------------------------------- */
+form {
+  display: block;
+  margin: 0px auto;
+  width: 500px;
+  height: 550px;
+  max-width: 700px;
+  max-width: 900px;
+  padding: 10px 40px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+form input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px auto;
+  padding: 5px;
+  background-color: #dcc7da;
+  border: 1px solid #87c2dd;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 200px;
+}
+
+form span {
+  color: #5ab872;
+}
+
+form button {
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  align-items: center;
+  border: none;
+  background-color: #246c36;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.kontak h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.oeffnungzeiten {
+  width: 100%;
+  height: 10%;
+  /* background-color: #36974e; */
+  padding: 50px 0;
+  text-align: center;
+}
